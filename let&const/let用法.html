@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript" src="../js/browser.min.js"></script>
+	<script type="text/javascript" type="text/babel">
+		{
+			/*{
+				var a = 1;
+				let b = 2;
+				console.log(b);
+			}
+			console.log(a);
+			console.log(b); */
+		}
+		
+		var arr = [];
+		for(var i=0;i<5;i++){
+			arr[i] = function(){
+				console.log(i);
+			}
+		}
+		arr[2]();
+
+		var arr2 = [];
+		for(let j=0;j<5;j++){
+			arr2[j] = function(){
+				console.log(j);
+			}
+		}
+		arr2[2]();
+	</script>
+</body>
+</html>
