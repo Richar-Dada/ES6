@@ -5,6 +5,9 @@ javascript的创造者是Netscape公司，后来被提交给国际标准化组�
 
 ECMAscript是一个种规范，javascript是一种实现，这就是它们的关系
 
+## 严格模式
+开启严格模式，变量声明一定要用var / let
+
 ## let命令
 
 ### 基本用法
